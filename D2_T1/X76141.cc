@@ -1,5 +1,5 @@
-// Input: A positive integer, n > 0, asking for the first n “strange” numbers.
-// Output: Prints the list with the first n “strange” numbers.
+// Pre: L'entrada és un nombre natural n que indica quants nombres estranys volem trobar.
+// Post: S'han mostrat per pantalla els n primers nombres estranys.
 // Observation: It is forbidden to use any external function except cin and cout, and also the program must be well documented if not it will be invalidated.
 
 #include <iostream>
