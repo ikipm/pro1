@@ -7,7 +7,7 @@ using namespace std;
 
 int main() {
     int i = 0, n; // Inizialitzem les variables
-    while (cin >> n) if (n/1000 == n%10) i++; // Llegim els nombres i incrementem la variable i si són de forma ABCA
+    while ((cin >> n) and i < 5) if (n/1000 == n%10) i++; // Llegim els nombres fins arribar als 5 ABCA i incrementem la variable i si són de forma ABCA
     if (i >= 5) cout << "SI"; // Si hi ha almenys 5 nombres de forma ABCA escrivim SI
     else cout << "NO"; // En cas contrari escrivim NO
     return 0;
